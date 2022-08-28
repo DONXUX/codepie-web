@@ -12,7 +12,7 @@ export default function Social() {
       <TitleText>개발자끼리 나누어보는 코드 이야기</TitleText>
       <div>
         <LoginButton
-          icon="github.svg"
+          icon="image/github.svg"
           message="깃허브로 시작하기"
           onClick={() =>
             router.push(
@@ -21,7 +21,7 @@ export default function Social() {
           }
         />
         <LoginButton
-          icon="google.svg"
+          icon="image/google.svg"
           message="구글로 시작하기"
           onClick={() => {
             alert('구글 클릭');

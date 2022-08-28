@@ -15,7 +15,7 @@ export default function LoginPage() {
           loader={(props) => getAssetURL(props.src)}
           layout="fill"
           alt="ic"
-          src={'pie_piece.svg'}
+          src={'image/pie_piece.svg'}
         />
       </Pie>
       <Header />

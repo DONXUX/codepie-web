@@ -10,7 +10,7 @@ export default function Header() {
         width={300}
         height={50}
         alt="logo"
-        src="logo.svg"
+        src="image/logo.svg"
       />
     </Container>
   );
