@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import styled from '@emotion/styled';
 
-import Header from './_header';
 import Description from './_description';
 import Social from './_social';
 import { getAssetURL } from '../../utils/asset';
+import Header from "../../component/header/header";
 
 export default function LoginPage() {
   return (
@@ -18,7 +18,7 @@ export default function LoginPage() {
           src={'image/pie_piece.svg'}
         />
       </Pie>
-      <Header />
+      <Header isLoggedIn={false} />
       <Body>
         <Row>
           <Description />
